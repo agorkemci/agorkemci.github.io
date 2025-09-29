@@ -1,0 +1,1 @@
+import{f as t}from"./index-BqNpw1fX.js";const a="https://mehmetzekicicekweb-backend-1.onrender.com",n=t.create({baseURL:a,headers:{"Content-Type":"application/json"}});function r(){const e=localStorage.getItem("token");return t.create({baseURL:a,headers:{"Content-Type":"application/json",...e?{Authorization:`Bearer ${e}`}:{}}})}export{a as A,n as a,r as b};
